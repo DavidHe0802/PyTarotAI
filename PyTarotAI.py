@@ -79,7 +79,7 @@ else:
 
 question = input("Now, tell me your question: ")
 
-openai.api_key = "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"
+openai.api_key = "your-api-key"
 
 def interpret(prompt, model = "gpt-3.5-turbo", instruction = instruction):
 
